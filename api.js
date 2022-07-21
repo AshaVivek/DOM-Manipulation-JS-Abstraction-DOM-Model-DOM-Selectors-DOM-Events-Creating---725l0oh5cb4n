@@ -12,7 +12,7 @@ export const availibility = {
     'Cars 2': [4, 6, 8,10,11,12,13,14,15,16],
     'Cars 3': [3, 5, 7, 9,20,21,12,13,19,24]
 }
-const fetchMovieList = async () => {
+const fetchMovieList =  async() => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(database)
